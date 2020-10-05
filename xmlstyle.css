@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* 
+song title {
+  display:block; border-bottom: 1px solid #1E3FD1; padding : 8px 0;
+} */
+
+coverband {
+  text-align: center;
+  font-size: 18px;
+}
+
+bandname::before {
+  content: "Introducing: ";
+  font-size: 50px;
+}
+
+bandname {
+  padding: 20px;
+  display: block;
+  text-align: center;
+  font-size: 50px;
+}
+
+/* bandname, song, title,original-artist, genre,release-year {
+  display: block;
+} */
+
+song {
+  display: block;
+  padding: 10px;
+}
+
+song title {
+  font-weight: bold;
+}
+
+song original-artist::before{
+  content: "by "
+}
+
+song genre {display: block;}
+
+song genre::before {
+  content: "Genre: ";
+}
+
+song release-year::before {content: "Released: ";}
+
+setlist {
+  display: table;
+  margin:0 auto; 
+}
+
+set-one::before {
+  content: "Set One";
+  display: block;
+  text-decoration: underline;
+  font-size: 22px;
+}
+
+set-two::before {
+  content: "Set One";
+  display: block;
+  text-decoration: underline;
+  font-size: 22px;
+}
+
+
+set-one,set-two {
+  display: table-cell;
+  text-align: center;
+}

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href = "xmlstyle.css" ?>
+
+<!-- Your assignment is to create an XML document that is a set list for a cover band.  Each entry should have a field to describe the artist(s), title, music genre, and year the song was released.
+
+Your file must include at least 10 songs.  The data must be real, but you can use any artist/band(s).
+
+Create a CSS file for aesthetic display of the data.
+
+ -->
+
+ <coverband>
+  <bandname>The Miler Hall Band
+  </bandname>
+  <setlist>
+    <set-one>
+      <song>
+        <title>Rude
+        </title>
+        <original-artist>MAGIC!
+        </original-artist>
+        <genre>Pop
+        </genre>
+        <release-year>2014
+        </release-year>
+      </song>
+      <song>
+        <title>Better Together
+        </title>
+        <original-artist>Jack Johnson
+        </original-artist>
+        <genre>Accoustic Rock
+        </genre>
+        <release-year>2005
+        </release-year>
+      </song>
+      <song>
+        <title>Royals
+        </title>
+        <original-artist>Lorde
+        </original-artist>
+        <genre>Pop
+        </genre>
+        <release-year>2013
+        </release-year>
+      </song>
+      <song>
+        <title>Off the Lawn
+        </title>
+        <original-artist>The Brook and The Bluff
+        </original-artist>
+        <genre>Pop
+        </genre>
+        <release-year>2019
+        </release-year>
+      </song>
+      <song>
+        <title>False Confidence
+        </title>
+        <original-artist>Noah Kahan
+        </original-artist>
+        <genre>Alternative
+        </genre>
+        <release-year>2019
+        </release-year>
+      </song>
+    </set-one>
+    <set-two>
+      <song>
+        <title>Electric Love
+        </title>
+        <original-artist>BORNS
+        </original-artist>
+        <genre>Alternative
+        </genre>
+        <release-year>2015
+        </release-year>
+      </song>
+      <song>
+        <title>Secrets
+        </title>
+        <original-artist>OneRepublic
+        </original-artist>
+        <genre>Pop
+        </genre>
+        <release-year>2009
+        </release-year>
+      </song>
+      <song>
+        <title>The Real
+        </title>
+        <original-artist>Busty and the Bass
+        </original-artist>
+        <genre>Funk
+        </genre>
+        <release-year>2015
+        </release-year>
+      </song>
+      <song>
+        <title>Halfway Up
+        </title>
+        <original-artist>The Brook and The Bluff
+        </original-artist>
+        <genre>Pop
+        </genre>
+        <release-year>2019
+        </release-year>
+      </song>
+      <song>
+        <title>Apollo
+        </title>
+        <original-artist>St. Paul And The Broken Bones
+        </original-artist>
+        <genre>Funk
+        </genre>
+        <release-year>2018
+        </release-year>
+      </song>
+    </set-two>
+  </setlist>
+ </coverband>
