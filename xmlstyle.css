@@ -1,8 +1,4 @@
 @charset "utf-8";
-/* 
-song title {
-  display:block; border-bottom: 1px solid #1E3FD1; padding : 8px 0;
-} */
 
 coverband {
   text-align: center;
@@ -20,10 +16,6 @@ bandname {
   text-align: center;
   font-size: 50px;
 }
-
-/* bandname, song, title,original-artist, genre,release-year {
-  display: block;
-} */
 
 song {
   display: block;

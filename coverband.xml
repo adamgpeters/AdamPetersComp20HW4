@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/css" href = "xmlstyle.css" ?>
-
-<!-- Your assignment is to create an XML document that is a set list for a cover band.  Each entry should have a field to describe the artist(s), title, music genre, and year the song was released.
-
-Your file must include at least 10 songs.  The data must be real, but you can use any artist/band(s).
-
-Create a CSS file for aesthetic display of the data.
-
- -->
-
  <coverband>
   <bandname>The Miler Hall Band
   </bandname>
